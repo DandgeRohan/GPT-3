@@ -1,0 +1,142 @@
+.main_footer{
+    background-color: var(--footer-bg);
+    min-height: 500px;
+    width: 100%;
+    margin-top: 10rem;
+    padding-bottom: 3em;
+    font-family: "Gilroy-Medium";
+}
+.main_footer__header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.main_footer__header h2{
+    font-size: 6.2rem;
+    font-weight: 800;
+    margin: 0 auto;
+    max-width: 900px;
+}
+.main_footer__header button{
+    background: none;
+    color: var(--text-color);
+    width: 210px;
+    height: 65px;
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-top: 5rem;
+    border: 1px solid #ffff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+   
+}
+.main_footer__header button:hover{
+    background-color: #fff;
+    color: #000;
+    transform: translateY(-4px); /* slight lift */
+    box-shadow: 0 10px 25px rgba(255, 255, 255, 0.25);
+}
+
+/*-------footer content*/
+.main_footer__container {
+  display: grid;
+  grid-template-columns: 1.5fr 3fr;
+  gap: 6rem;
+  margin-top: 8rem;
+}
+
+/* ----logo----- */
+.main_footer_img img {
+  display: block;
+}
+
+.main_footer_img p {
+  margin-top: 1.2rem;
+  font-size: 2rem;
+  line-height: 1.6;
+  max-width: 230px;
+  opacity: 0.8;
+}
+/*-----Footer nav------ */
+.footer_nav {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5rem;
+  margin-top: 1.5rem;
+}
+
+.footer_nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-title {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+/*---------Links------------*/
+.footer_nav li {
+  font-size: 1.6rem;
+  margin-bottom: 1.5rem;
+}
+
+.footer_nav a {
+  color: var(--text-color);
+  text-decoration: none;
+  opacity: 0.75;
+  transition: all 0.3s ease;
+}
+
+.footer_nav a:hover {
+  opacity: 1;
+  transform: translateX(5px);
+}
+
+/*--------- RESPONSIVE DESIGN--------*/
+@media (max-width: 1024px) {
+  .main_footer {
+    padding: 6rem 4rem 4rem;
+  }
+
+  .main_footer__header h2 {
+    font-size: 5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .main_footer__container {
+    grid-template-columns: 1fr;
+}
+
+.footer_nav {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+  }
+
+  .main_footer__header h2 {
+    font-size: 4.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .main_footer {
+    padding: 5rem 2rem 3rem;
+  }
+
+  .footer_nav {
+    grid-template-columns: 1fr;
+  }
+
+  .main_footer__header h2 {
+    font-size: 3.4rem;
+  }
+
+  .main_footer__header button {
+    width: 100%;
+  }
+}
