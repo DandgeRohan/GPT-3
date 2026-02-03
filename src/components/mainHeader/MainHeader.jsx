@@ -1,11 +1,11 @@
 import React from 'react';
 import './MainHeader.css';
-import  logo  from '../../assets/Logo/GPT-3.svg';
+import logo from '../../assets/Logo/GPT-3.svg';
 import Button from '../../UI/Button/Button';
 import { useState } from 'react';
 const MainHeader = () => {
   const [open, setOpen] = useState(false);
-  console.log("componetn rendered ", open);
+  console.log("component rendered ", open);
   return (
     <header className="main_header layout">
       <div className="main_header__logo">
