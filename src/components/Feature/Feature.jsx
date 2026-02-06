@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Feature.css";
 import featureImg from "../../assets/feature/Feature.png";
-import GradientText from '../../UI/GradientText/GradientText';
+import GradientText from '../../Ui/GradientText/GradientText';
 const Feature = () => {
   return (
     <section className='feature_section layout'>

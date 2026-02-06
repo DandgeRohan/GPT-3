@@ -1,5 +1,5 @@
 import "./MainFooter.css";
-import GradientText from '../../UI/GradientText/GradientText';
+import GradientText from '../../Ui/GradientText/GradientText';
 import logo from "../../assets/Logo/GPT-3.svg";
 
 const MainFooter = () => {

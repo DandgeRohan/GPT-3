@@ -1,5 +1,5 @@
 import React from 'react'
-import GradientText from '../../UI/GradientText/GradientText';
+import GradientText from '../../Ui/GradientText/GradientText';
 import "./Services.css";
 
 

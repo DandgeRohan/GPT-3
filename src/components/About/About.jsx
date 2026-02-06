@@ -1,6 +1,6 @@
 import React from 'react'
 import "./About.css";
-import GradientText from "../../UI/GradientText/GradientText";
+import GradientText from "../../Ui/GradientText/GradientText";
 
 
 const data = [

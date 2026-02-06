@@ -1,6 +1,6 @@
 
 import "./Blog.css";
-import GradientText from '../../UI/GradientText/GradientText';
+import GradientText from '../../Ui/GradientText/GradientText';
 import blog1 from "../../assets/blog/blog1.png";
 import blog2 from "../../assets/blog/blog2.png";
 import blog3 from "../../assets/blog/blog3.png";
