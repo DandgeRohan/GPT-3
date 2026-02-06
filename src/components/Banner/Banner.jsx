@@ -8,7 +8,7 @@ import c4 from "../../assets/Banner/c4.svg";
 import c5 from "../../assets/Banner/c5.svg";
 import c6 from "../../assets/Banner/c6.svg";
 import GradientText from "../../Ui/GradientText/GradientText";
-import Button from "../../UI/Button/Button";
+import Button from "../../Ui/button/Button";
 
 const Banner = () => {
   return (

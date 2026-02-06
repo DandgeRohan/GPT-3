@@ -1,7 +1,7 @@
 import React from 'react';
 import './MainHeader.css';
 import logo from '../../assets/Logo/GPT-3.svg';
-import Button from '../../UI/Button/Button';
+import Button from '../../Ui/Button/Button';
 import { useState } from 'react';
 const MainHeader = () => {
   const [open, setOpen] = useState(false);
